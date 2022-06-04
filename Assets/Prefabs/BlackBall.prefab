@@ -111,7 +111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4faf2d7ecd2fa4c44a0bebdc4f347a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
   points: 5
 --- !u!54 &4389123087803153600
 Rigidbody:
