@@ -11,6 +11,8 @@ public class RedBall : Ball
         gameManager.GameOver();
     }
 
+
+    //POLYMORPHISM
     public override void Explode(string name)
     {
         GameObject explosionParticle = GameObject.Find(name);

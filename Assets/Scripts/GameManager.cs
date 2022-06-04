@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     private float timeDelay = 3;
 
 
+
+    //ENCAPSULATION
     private int score;
     public int Score
     {
@@ -75,6 +77,8 @@ public class GameManager : MonoBehaviour
         homeScreen.SetActive(true);
     }
 
+
+    //ABSTRACTION
     void SpawnBall()
     {
         GameObject randomBall = balls[Random.Range(0, balls.Length)];
